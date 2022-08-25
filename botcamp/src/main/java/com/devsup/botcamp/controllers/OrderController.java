@@ -34,7 +34,7 @@ public class OrderController {
 	public ResponseEntity<OrderDTO> insert (@RequestBody OrderDTO dto) {
 		dto = service.insert(dto);
 		URI uri = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}").buildAndExpand(dto.getId()).toUri();
-		return ResponseEntity.created(uri).body(dto);		
+		return ResponseEntity.created(uri).body(dto);	
 	}
 	
 	@PutMapping(value = "/{id}/delivered")
