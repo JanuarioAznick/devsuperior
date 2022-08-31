@@ -58,7 +58,7 @@
   .orders-list-items {
     width: 70%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, 235px);
+    grid-template-columns: repeat(auto-fill, 240px); /*repeat(auto-fill, 235px)*/
     grid-gap: 20px 15px;
     justify-content: space-between;
   }
@@ -100,6 +100,7 @@
     margin-top: 15px;
     margin-bottom: 15px;
     width: 100%;
+    left:13px;
   }
   
   .order-card-price {

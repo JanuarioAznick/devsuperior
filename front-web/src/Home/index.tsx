@@ -16,7 +16,7 @@ function Home () {
                             Escolha o seu pedido e em poucos minutos <br />
                             levaremos até a sua porta.
                         </h3>
-                        <Link to="/" className="home-btn-order">
+                        <Link to="/orders" className="home-btn-order">
                             FAZER PEDIDO
                         </Link>
                     </div>
